@@ -10,11 +10,16 @@
         <link rel="stylesheet" href="../css/all.min.css">
         <link rel="stylesheet" href="../css/salon.css">
     </head>
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
     <body>
         <section class="salon">
             <section class="contenedor-mesa">
                 <i class="fas fa-circle mesa"></i>
-                <i class="fas fa-chair silla-pos1 silla"></i>
+                <i class="fas fa-chair silla-pos1 silla silla-reservada" title="Est silla está reservada"></i>
                 <i class="fas fa-chair silla-pos2 silla"></i>
                 <i class="fas fa-chair silla-pos3 silla"></i>
                 <i class="fas fa-chair silla-pos4 silla"></i>
